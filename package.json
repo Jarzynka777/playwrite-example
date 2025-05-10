@@ -6,7 +6,11 @@
   "directories": {
     "doc": "docs"
   },
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test",
+    "test:browser": "playwright test --ui",
+    "test:codegen": "playwright codegen"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Jarzynka777/playwrite-example.git"
