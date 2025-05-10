@@ -7,9 +7,10 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "playwright test",
-    "test:browser": "playwright test --ui",
-    "test:codegen": "playwright codegen"
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "test:browser": "npx playwright test --headed",
+    "test:codegen": "npx playwright codegen"
   },
   "repository": {
     "type": "git",
