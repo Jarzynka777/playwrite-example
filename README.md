@@ -156,7 +156,19 @@ npm init playwright@latest
 npm init playwright@latest new-project
 ```
 
-3. Commit add changes and push to repo
+3. How to run test
+```bash
+# terminal mode
+npm run test
+
+# browser simulation
+npm run test:browser
+
+# generating new test scenarios
+npm run test:codegen
+```
+
+4. Commit add changes and push to repo
 ```bash
 git add .
 
