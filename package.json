@@ -1,0 +1,25 @@
+{
+  "name": "playwrite-example",
+  "version": "1.0.0",
+  "description": "Summary of zoom meeting",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jarzynka777/playwrite-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jarzynka777/playwrite-example/issues"
+  },
+  "homepage": "https://github.com/Jarzynka777/playwrite-example#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.17"
+  }
+}
